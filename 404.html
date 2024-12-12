@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio interactif de Girard Mathéo - Développeur Web Full Stack">
-    <title>Girard Mathéo - Portfolio Interactif</title>
+    <script>
+      // Redirection vers index.html avec le bon chemin
+      const segment = 1;
+      const path = window.location.pathname;
+      const repo = '/Portfolio-GPT';
+      
+      sessionStorage.redirect = path;
+      window.location.href = `${repo}/index.html`;
+    </script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    Redirection...
   </body>
 </html> 

@@ -2,7 +2,7 @@
 <html lang="">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/Portfolio/favicon.ico">
+    <link rel="icon" href="/Portfolio-GPT/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio interactif de Girard Mathéo - Développeur Web Full Stack">
     <meta name="keywords" content="portfolio, développeur, vue.js, web, full stack">
@@ -11,8 +11,18 @@
     <meta name="robots" content="index, follow">
     <!-- <link rel="canonical" href="https://votre-domaine.com"> -->
     <title>Girard Mathéo - Portfolio Interactif</title>
-    <script type="module" crossorigin src="/Portfolio/assets/index-CPoMROmW.js"></script>
-    <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-BMB2S5r_.css">
+    <script>
+      // Gestion de la redirection
+      (function() {
+        const redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/Portfolio/assets/index-BCOuCXuU.js"></script>
+    <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-CJPBRgvw.css">
   </head>
   <body>
     <div id="app"></div>
