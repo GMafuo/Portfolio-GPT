@@ -1,0 +1,27 @@
+:root {
+  /* Couleurs de base */
+  --primary-color: #19C37D;
+  --chat-dark-bg: #343541;
+  --sidebar-dark: #202123;
+  --text-light: #ECECF1;
+  --input-dark: #40414F;
+  --border-color: rgba(255,255,255,0.1);
+
+  /* Espacements */
+  --sidebar-width: 260px;
+  --input-height: 60px;
+  --message-spacing: 1.5rem;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Couleurs supplémentaires */
+  --primary-hover: #15A76C;
+  --primary-active: #118C5B;
+  --danger-color: #ff4444;
+  --danger-hover: #ff6666;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+}

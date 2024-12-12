@@ -1,0 +1,27 @@
+/* Theme sombre (par défaut) */
+.theme-dark {
+  --bg-primary: var(--chat-dark-bg);
+  --bg-secondary: var(--sidebar-dark);
+  --text-primary: var(--text-light);
+  --text-secondary: #8E8EA0;
+  --input-bg: var(--input-dark);
+  
+  --hover-bg: rgba(255, 255, 255, 0.1);
+  --active-bg: rgba(255, 255, 255, 0.15);
+  --border-hover: rgba(255, 255, 255, 0.2);
+  --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Theme clair */
+.theme-light {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f7f8;
+  --text-primary: #2d2d2d;
+  --text-secondary: #6b6b6b;
+  --input-bg: #ffffff;
+  --chat-dark-bg: #ffffff;
+  --border-color: #e5e5e5;
+  --input-dark: #f0f0f0;
+  
+  --hover-bg: rgba(0, 0, 0, 0.05);
+}
